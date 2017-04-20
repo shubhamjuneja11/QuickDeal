@@ -13,16 +13,18 @@
        android:layout_height="100dp"
        android:layout_gravity="center"
        android:src="@drawable/quickdeal_logo1"
+       android:id="@+id/imageView2"
+       android:layout_marginTop="140dp"
        android:layout_alignParentTop="true"
-       android:layout_centerHorizontal="true"
-       android:layout_marginTop="109dp" />
+       android:layout_centerHorizontal="true" />
 
    <ImageView
        android:layout_width="150dp"
        android:layout_height="80dp"
        android:id="@+id/logo2"
-       android:layout_centerInParent="true"
        android:src="@drawable/quickdeal_logo2"
-       />
+       android:layout_alignTop="@+id/imageView2"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="85dp" />
 
 </RelativeLayout>

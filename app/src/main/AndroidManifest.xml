@@ -24,11 +24,12 @@
         <activity
             android:name=".BuyerActivity"
             android:label="@string/title_activity_buyer"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SellerActivity"
             android:label="@string/title_activity_seller"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MockActivity"></activity>
     </application>
 
 </manifest>
