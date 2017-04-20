@@ -30,6 +30,7 @@ public class MockActivity extends AppCompatActivity {
             case 7:
                 setContentView(R.layout.mock7);
                 setTitle("Posted Requirements");
+
                 break;
         }
     }
