@@ -5,13 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
+    android:orientation="vertical"
     tools:context="com.supergeek.quickdeal.SplashScreenActivity">
 
    <ImageView
-       android:layout_width="300dp"
-       android:layout_height="300dp"
-   android:layout_centerInParent="true"
-       android:src="@drawable/quickdeal_logo"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_gravity="center"
+       android:src="@drawable/quickdeal_logo1"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="109dp" />
+
+   <ImageView
+       android:layout_width="150dp"
+       android:layout_height="80dp"
+       android:id="@+id/logo2"
+       android:layout_centerInParent="true"
+       android:src="@drawable/quickdeal_logo2"
        />
 
 </RelativeLayout>
