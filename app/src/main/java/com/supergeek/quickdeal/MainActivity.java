@@ -3,9 +3,10 @@ package com.supergeek.quickdeal;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity  {
 Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,8 +14,9 @@ Intent intent;
         setContentView(R.layout.activity_main);
     }
 
-    @Override
+
     public void onClick(View v) {
+        Log.e("abcde",v.getId()+"");
         switch (v.getId()){
             case R.id.seller:
                 intent=new Intent(this,SellerActivity.class);
