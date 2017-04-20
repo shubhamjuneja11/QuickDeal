@@ -44,6 +44,7 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="4"
+                android:id="@+id/buyer"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_buyer"
                 />
@@ -54,9 +55,8 @@
 
 </View>
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/seller"
                 android:layout_width="0dp"
-
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:src="@drawable/ic_seller" />
